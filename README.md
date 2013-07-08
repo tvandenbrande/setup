@@ -2,7 +2,10 @@ setup.git
 =========
 Clone and run this on a new EC2 instance running Ubuntu 12.04.2 LTS to
 configure both the machine and your individual development environment as
-follows:
+follows, depending on the development env you want to construct:
+
+
+==Coursera==
 
 ```sh
 cd $HOME
@@ -11,6 +14,7 @@ git clone https://github.com/tvandenbrande/setup.git
 ./setup/setupAWS.sh   
 ```
 
+==OpenFOAM==
 (under construction) If you are configuring for OpenFoam:
 
 ```sh
@@ -18,6 +22,16 @@ cd $HOME
 sudo apt-get install -y git-core
 git clone https://github.com/tvandenbrande/setup.git
 ./setup/setupFOAM.sh   
+```
+
+==HAMFEM==
+(under construction) If you are configuring for Fortran programming:
+
+```sh
+cd $HOME
+sudo apt-get install -y git-core
+git clone https://github.com/tvandenbrande/setup.git
+./setup/setupFORTRAN90.sh   
 ```
 
 
