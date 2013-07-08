@@ -5,7 +5,8 @@ configure both the machine and your individual development environment as
 follows, depending on the development env you want to construct:
 
 
-==Coursera==
+Coursera
+--------
 
 ```sh
 cd $HOME
@@ -14,7 +15,8 @@ git clone https://github.com/tvandenbrande/setup.git
 ./setup/setupAWS.sh   
 ```
 
-==OpenFOAM==
+OpenFOAM
+--------
 (under construction) If you are configuring for OpenFoam:
 
 ```sh
@@ -24,7 +26,8 @@ git clone https://github.com/tvandenbrande/setup.git
 ./setup/setupFOAM.sh   
 ```
 
-==HAMFEM==
+HAMFEM
+------
 (under construction) If you are configuring for Fortran programming:
 
 ```sh
