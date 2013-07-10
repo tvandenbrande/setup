@@ -12,6 +12,7 @@ Coursera
 cd $HOME
 sudo apt-get install -y git-core
 git clone https://github.com/tvandenbrande/setup.git
+chmod 777 ./setup/setupAws.sh
 ./setup/setupAWS.sh   
 ```
 
