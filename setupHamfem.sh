@@ -17,6 +17,9 @@ sudo apt-add-repository -y ppa:cassou/emacs
 sudo apt-get update
 sudo apt-get install -y emacs24 emacs24-el emacs24-common-non-dfsg
 
+#install geany, a visual editor, similar to notepad++ if user doesn't want to work with emacs. Geany comes with a ubuntu install
+sudo apt-get install geany
+
 # git pull and install dotfiles as well
 cd $HOME
 if [ -d ./dotfiles/ ]; then
