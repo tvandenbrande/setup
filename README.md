@@ -29,7 +29,7 @@ git clone https://github.com/tvandenbrande/setup.git
 
 HAMFEM
 ------
-(under construction) If you are configuring for Fortran programming:
+If you are configuring for Fortran programming:
 
 ```sh
 cd $HOME
