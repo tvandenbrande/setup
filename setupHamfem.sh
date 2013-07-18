@@ -7,6 +7,7 @@ sudo apt-get install -y git-core
 
 # Install fortran90 compilers
 # installed with ubuntu 12.04, more info on http://manpages.ubuntu.com/manpages/precise/man1/arm-linux-gnueabi-gfortran-4.4.1.html
+sudo apt-get install gfortran
 
 # Add Bwfpool drive
 # more information can be found by asking Thijs Van den Brande
