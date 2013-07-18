@@ -12,6 +12,9 @@ source $HOME/.nvm/nvm.sh
 nvm install v0.10.12
 nvm use v0.10.12
 
+# Install Heroku toolbelt
+wget -qO- https://toolbelt.heroku.com/install-unbuntu.sh | sh
+
 # Install jshint to allow checking of JS code within emacs
 # http://jshint.com/
 npm install -g jshint
