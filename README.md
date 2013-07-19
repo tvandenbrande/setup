@@ -35,7 +35,7 @@ If you are configuring for Fortran programming:
 cd $HOME
 sudo apt-get install -y git-core
 git clone https://github.com/tvandenbrande/setup.git
-./setup/setupFORTRAN90.sh   
+./setup/setupHamfem.sh   
 ```
 
 
