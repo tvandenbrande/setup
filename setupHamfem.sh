@@ -10,6 +10,7 @@ sudo apt-get install -y git-core
 sudo apt-get install gfortran
 # install Lapack library
 # http://www.math.utah.edu/software/lapack.html
+sudo apt-get install libblas-dev libatlas-dev liblapack-dev
 
 # Add Bwfpool drive
 # more information can be found by asking Thijs Van den Brande
