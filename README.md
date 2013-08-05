@@ -5,7 +5,7 @@ configure both the machine and your individual development environment as
 follows, depending on the development env you want to construct:
 
 
-Coursera
+node.js and emacs
 --------
 
 ```sh
@@ -16,7 +16,7 @@ chmod 777 ./setup/setupAws.sh
 ./setup/setupAWS.sh   
 ```
 
-OpenFOAM
+OpenFOAM (with emacs)
 --------
 (under construction) If you are configuring for OpenFoam:
 
@@ -27,7 +27,7 @@ git clone https://github.com/tvandenbrande/setup.git
 ./setup/setupFOAM.sh   
 ```
 
-HAMFEM
+HAMFEM (with emacs and gfortran)
 ------
 If you are configuring for Fortran programming:
 
