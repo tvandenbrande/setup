@@ -1,23 +1,6 @@
 #!/bin/bash
 # Simple setupFOAM.sh for configuring Ubuntu 12.04 for OPENFOAM. 
-
-# Install nvm: node-version manager
-# https://github.com/creationix/nvm
 sudo apt-get install -y git-core
-curl https://raw.github.com/creationix/nvm/master/install.sh | sh
-
-# Load nvm and install latest production node
-source $HOME/.nvm/nvm.sh
-nvm install v0.10.12
-nvm use v0.10.12
-
-# Install jshint to allow checking of JS code within emacs
-# http://jshint.com/
-npm install -g jshint
-
-# Install rlwrap to provide libreadline features with node
-# See: http://nodejs.org/api/repl.html#repl_repl
-sudo apt-get install -y rlwrap
 
 # Install emacs24
 # https://launchpad.net/~cassou/+archive/emacs
@@ -39,6 +22,14 @@ ln -sb dotfiles/.bash_profile .
 ln -sb dotfiles/.bashrc .
 ln -sb dotfiles/.bashrc_custom .
 ln -sf dotfiles/.emacs.d .
+
+# Install PyFoam
+sudo apt-get install python-numpy
+sudo apt-get install subversion
+svn co https://svn.code.sf.net/p/openfoam-extend/svn/trunk/Breeder/other/scripting/PyFoam/
+cd PyFoam
+sudo python setup.py install
+cd $HOME
 
 # Install openFOAM
 VERS=$(lsb_release -cs)
