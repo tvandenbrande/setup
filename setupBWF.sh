@@ -19,6 +19,7 @@ sudo apt-get install libjpeg62
 sudo apt-get install -y wget
 wget http://download1.rstudio.org/rstudio-0.98.501-amd64.deb
 sudo dpkg -i rstudio-0.98.501-amd64.deb
+rm -rf rstudio-0.98.501-amd64.deb
 
 # install Python and packages
 # python 2.7.5: numpy 1.8.1 | scipy 0.13.3 | matplotlib 1.3.1 | networkx 1.8.1 | spyder 2.2.1
@@ -31,4 +32,10 @@ sudo apt-add-repository -y ppa:cassou/emacs
 sudo apt-get update
 sudo apt-get install -y emacs24 emacs24-el emacs24-common-non-dfsg
 sudo apt-get install geany
+
+# Install teamviewer
+wget http://download.teamviewer.com/download/teamviewer_linux.deb
+sudo dpkg -i teamviewer_linux.deb
+rm -rf teamviewer_linux.deb
+
 
