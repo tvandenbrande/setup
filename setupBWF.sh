@@ -5,6 +5,7 @@
 sudo apt-get install -y git-core
 # Install wget to download dependencies from links
 sudo apt-get install wget
+sudo apt-get update
 
 # Install fortran90 compilers and libraries for Hamfem
 # installed with ubuntu 12.04, more info on http://manpages.ubuntu.com/manpages/precise/man1/arm-linux-gnueabi-gfortran-4.4.1.html
@@ -14,6 +15,7 @@ sudo apt-get install libblas-dev libatlas-dev liblapack-dev
 
 # install R studio
 sudo apt-get install -y r-base-dev
+sudo apt-get install libjpeg62
 sudo apt-get install -y wget
 wget http://download1.rstudio.org/rstudio-0.98.501-amd64.deb
 sudo dpkg -i rstudio-0.98.501-amd64.deb
