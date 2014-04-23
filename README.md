@@ -1,19 +1,19 @@
 setup.git
 =========
-Clone and run this on a new EC2 instance running Ubuntu 12.04.2 LTS to
+Clone and run this on a new EC2 instance running Ubuntu 14.04.2 LTS to
 configure both the machine and your individual development environment as
 follows, depending on the development env you want to construct:
 
 
-node.js and emacs
+For an installation with emacs, R-studio, Spyder and gfortran
 --------
 
 ```sh
 cd $HOME
 sudo apt-get install -y git-core
 git clone https://github.com/tvandenbrande/setup.git
-chmod 777 ./setup/setupAws.sh
-./setup/setupAWS.sh   
+chmod 777 ./setup/setupBWF.sh
+./setup/setupBWF.sh   
 ```
 
 OpenFOAM (with emacs)
@@ -25,17 +25,6 @@ cd $HOME
 sudo apt-get install -y git-core
 git clone https://github.com/tvandenbrande/setup.git
 ./setup/setupFOAM.sh   
-```
-
-HAMFEM (with emacs and gfortran)
-------
-If you are configuring for Fortran programming:
-
-```sh
-cd $HOME
-sudo apt-get install -y git-core
-git clone https://github.com/tvandenbrande/setup.git
-./setup/setupHamfem.sh   
 ```
 
 
