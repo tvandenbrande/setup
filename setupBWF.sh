@@ -1,5 +1,5 @@
 #!/bin/bash
-# Simple setup.sh for configuring Ubuntu 12.04 for HAMFEM.
+# Simple setup.sh for configuring Ubuntu 14.04 LTS for HAMFEM.
 
 # Install (normally already ok because this file comes from git)
 sudo apt-get install -y git-core
@@ -22,8 +22,14 @@ sudo dpkg -i rstudio-0.98.501-amd64.deb
 rm -rf rstudio-0.98.501-amd64.deb
 
 # install Python and packages
-# python 2.7.5: numpy 1.8.1 | scipy 0.13.3 | matplotlib 1.3.1 | networkx 1.8.1 | spyder 2.2.1
-
+# add these packages: numpy 1.8.1 | scipy 0.13.3 | matplotlib 1.3.1 | networkx 1.8.1 | spyder 2.2.1
+# python 2.7.6 comes with the instalation of Ubunu 14.04 LTS
+sudo apt-get install python-numpy
+sudo apt-get install python-scipy
+sudo apt-get install python-matplotlib
+sudo apt-get install python-pip
+sudo pip install networkx
+sudo apt-get install spyder
 
 # Install emacs24 and Geany: for adjusting textfiles 
 # emacs is a command line editor, geany a visual editor similar to notepad++
