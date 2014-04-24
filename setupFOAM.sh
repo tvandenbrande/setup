@@ -1,6 +1,16 @@
 #!/bin/bash
 # Simple setupFOAM.sh for configuring Ubuntu 12.04 for OPENFOAM. 
 sudo apt-get install -y git-core
+sudo apt-get install wget
+
+# Clone the latest source code from the git repository
+git clone git://github.com/OpenFOAM/OpenFOAM-2.3.x.git
+# download third party software and install in in the folder Thirdparty-2.3.x
+# install dependencies
+sudo apt-get install build-essential flex bison cmake zlib1g-dev qt4-dev-tools libqt4-dev gnuplot libreadline-dev libncurses-dev libxt-dev
+# adjust bash file 
+# add this line to the end of your bash file: source $HOME/OpenFOAM/OpenFOAM-2.3.x/etc/bashrc
+
 
 # Install emacs24
 # https://launchpad.net/~cassou/+archive/emacs
