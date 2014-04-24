@@ -5,9 +5,9 @@ configure both the machine and your individual development environment as
 follows, depending on the development env you want to construct:
 
 
-For an installation with emacs, R-studio, Spyder and gfortran
+Basic installation
 --------
-
+For fortran90, c++, R and python development. 
 ```sh
 cd $HOME
 sudo apt-get install -y git-core
@@ -15,6 +15,17 @@ git clone https://github.com/tvandenbrande/setup.git
 chmod 777 ./setup/setupBWF.sh
 ./setup/setupBWF.sh   
 ```
+Following libraries are installed for Python: 
+* Numpy 1.8.1
+* scipy 0.13.3
+* matplotlib 1.3.1
+* networkx 1.8.1
+* pandas
+* numexpr
+* Cython
+* tables
+* spyder 2.2.1
+
 
 OpenFOAM (with emacs)
 --------
