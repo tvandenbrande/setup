@@ -32,10 +32,6 @@ sudo pip install networkx
 sudo pip install pandas
 sudo apt-get install spyder
 
-# ohter option for pandas
-sudo apt-get install python-setuptools # installs easy_install for your python version
-sudo easy_install pandas
-
 # Install emacs24 and Geany: for adjusting textfiles 
 # emacs is a command line editor, geany a visual editor similar to notepad++
 # https://launchpad.net/~cassou/+archive/emacs
