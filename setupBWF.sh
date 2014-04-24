@@ -29,6 +29,7 @@ sudo apt-get install python-scipy
 sudo apt-get install python-matplotlib
 sudo apt-get install python-pip
 sudo pip install networkx
+sudo pip install pandas
 sudo apt-get install spyder
 
 # Install emacs24 and Geany: for adjusting textfiles 
