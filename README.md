@@ -29,7 +29,8 @@ Following libraries are installed for Python:
 
 OpenFOAM (with emacs)
 --------
-(under construction) If you are configuring for OpenFoam:
+For more details on OpenFOAM installation and configuration see: http://www.openfoam.org/download/git.php
+Note that the compilation of the OpenFOAM code takes quite a while.
 
 ```sh
 cd $HOME
