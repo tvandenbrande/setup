@@ -4,18 +4,18 @@
 # Install (normally already ok because this file comes from git)
 sudo apt-get install -y git-core
 # Install wget to download dependencies from links
-sudo apt-get install wget
+sudo apt-get install -y wget
 sudo apt-get update
 
 # Install fortran90 compilers and libraries for Hamfem
 # installed with ubuntu 12.04, more info on http://manpages.ubuntu.com/manpages/precise/man1/arm-linux-gnueabi-gfortran-4.4.1.html
 # more info on the libraries: http://www.math.utah.edu/software/lapack.html
-sudo apt-get install gfortran
-sudo apt-get install libblas-dev libatlas-dev liblapack-dev
+sudo apt-get install -y gfortran
+sudo apt-get install -y libblas-dev libatlas-dev liblapack-dev
 
 # install R studio
 sudo apt-get install -y r-base-dev
-sudo apt-get install libjpeg62
+sudo apt-get install -y libjpeg62
 sudo apt-get install -y wget
 wget http://download1.rstudio.org/rstudio-0.98.501-amd64.deb
 sudo dpkg -i rstudio-0.98.501-amd64.deb
@@ -24,15 +24,15 @@ rm -rf rstudio-0.98.501-amd64.deb
 # install Python and packages
 # add these packages: numpy 1.8.1 | scipy 0.13.3 | matplotlib 1.3.1 | networkx 1.8.1 | spyder 2.2.1
 # python 2.7.6 comes with the instalation of Ubunu 14.04 LTS
-sudo apt-get install python-numpy
-sudo apt-get install python-scipy
-sudo apt-get install python-matplotlib
-sudo apt-get install python-pip
+sudo apt-get install -y python-numpy
+sudo apt-get install -y python-scipy
+sudo apt-get install -y python-matplotlib
+sudo apt-get install -y python-pip
 sudo pip install networkx
 sudo pip install pandas
 sudo pip install numexpr
 sudo pip install Cython
-sudo apt-get install libhdf5-mpich-dev
+sudo apt-get install -y libhdf5-mpich-dev
 sudo pip install tables
 sudo apt-get install spyder
 
