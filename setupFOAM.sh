@@ -22,6 +22,7 @@ sudo apt-get install -y emacs24 emacs24-el emacs24-common-non-dfsg
 # Install PyFoam (uses numpy)
 sudo apt-get install python-numpy
 sudo apt-get install subversion
+sudo apt-get install libboost-dev libboost-doc
 svn co https://svn.code.sf.net/p/openfoam-extend/svn/trunk/Breeder/other/scripting/PyFoam/
 cd PyFoam
 sudo python setup.py install
