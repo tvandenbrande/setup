@@ -42,8 +42,6 @@ git clone https://github.com/tvandenbrande/setup.git
 
 See also http://github.com/tvandenbrande/dotfiles 
 
-Usefull documentation on setup can be found here: [Startup Engineering Video Lectures 4a/4b](https://class.coursera.org/startup-001/lecture/index)
-for more details.
 
 
 
